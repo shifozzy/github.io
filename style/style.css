@@ -32,8 +32,6 @@ li {
 .header {
   padding: 20px 10px;
   background: #000000;
-  background: #000000;
-  background: linear-gradient(90deg, #000000 25%, #c4c0c0 75%);
 }
 
 .header__container {
@@ -63,7 +61,6 @@ li {
   padding-top: 50px;
   padding-bottom: 50px;
   background: #000000;
-  background: linear-gradient(90deg, #000000 25%, #c4c0c0 75%);
 }
 
 .main__title {
