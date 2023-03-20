@@ -1,0 +1,406 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("Roboto"),
+       url('../fonts/RobotoRegular.woff2') format('woff2'),
+       url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --blue:#3F2AFF;
+  --white: #fff;
+}
+
+/*Global styles*/
+
+*{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #666;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.title-reset {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn {
+  border-radius: 20px;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.p-reset {
+  margin: 0;
+  padding: 0;
+}
+
+.link-style {
+  text-decoration: none;
+}
+
+/* Header */
+
+.header {
+  min-width: 320px;
+  background-color: var(--blue);
+}
+
+.header__content {
+  padding-top: 27px;
+  padding-bottom: 30px;
+}
+
+.header__pic {
+  margin-right: auto;
+  padding-left: 22px;
+}
+
+.header__nav {
+  padding-right: 0px;
+  padding-left: 65px;
+}
+
+.header__link {
+  color: var(--white);
+}
+
+.header__burger {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  color: var(--white);
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.header__burger-line {
+  position: absolute;
+  width: 20.63px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: var(--white);
+  transform: translateX(-50%);
+}
+
+.header__burger-line:nth-child(1) {
+  top: 0;
+}
+
+.header__burger-line:nth-child(2) {
+  top: 9px;
+  transform: translateX(-50%);
+}
+
+.header__burger-line:nth-child(3) {
+  top: 17px;
+}
+
+/*Section hero */
+
+.hero {
+  min-width: 320px;
+  padding-bottom: 23px;
+  background: radial-gradient(49% 49% at 67.78% 84.57%, #555681 0%, #2E2B44 100%);
+}
+
+.hero .container {
+  padding-left: 8px;
+}
+
+.hero__left {
+  padding-top: 132px;
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.hero__title {
+  margin-bottom: 27px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  color: var(--white);
+}
+
+.hero__dscr {
+  margin-bottom: 62px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--white);
+}
+
+.hero__btn {
+  padding-top: 24px;
+  padding-right: 75.5px;
+  padding-bottom: 24px;
+  padding-left: 75.5px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hero__right {
+  margin-bottom: 5px;
+  padding-right: 0px;
+  padding-left: 22px;
+}
+
+.hero__right-img {
+  max-width: 100%;
+  object-fit: cover;
+  transform: translate(8px, 13px);
+}
+
+/* Skillbox advantage */
+
+.skillbox-advantage {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.skillbox-advantage__block {
+  margin-bottom: 24px;
+}
+
+.skillbox-advantage__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #2E2B44;
+}
+
+.skillbox-advantage__dscr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.skillbox-advantage__img {
+  margin-right: 13px;
+  padding-top: 23px;
+  padding-right: 0px;
+  padding-left: 37px;
+}
+
+.skillbox-advantage__title {
+  margin-bottom: 17px;
+}
+
+.skillbox-advantage__right {
+  padding-left: 26px;
+  padding-right: 35px;
+}
+
+.skillbox-advantage__wrapper {
+  display: flex;
+}
+
+.skillbox-advantage__icon {
+  flex-basis: 35%;
+}
+
+.skillbox-advantage__text {
+  flex-basis: 65%;
+  padding-top: 11px;
+}
+
+/* Section teachers */
+
+.teachers {
+  min-width: 320px;
+  padding-top: 75px;
+  padding-bottom: 73px;
+  background-color: #2E2B44;
+}
+
+.teachers .container {
+  padding-right: 0;
+  padding-left: 23px;
+}
+
+.teachers__title {
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: var(--white);
+}
+
+.teachers__item {
+  max-width: 23%;
+}
+
+.teachers__pic {
+  margin-bottom: 30px;
+}
+
+.teachers__img {
+  max-width: 100%;
+}
+
+.teachers__info-initials {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--white);
+}
+
+.teachers__info-dscr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white);
+}
+
+/* Section Courses */
+
+.courses {
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.courses .container {
+  padding-left: 23px;
+  padding-right: 7px;
+}
+
+.courses__title {
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.courses__item {
+  max-width: 48.7%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: #EDF0F9;
+}
+
+.courses__info {
+  display: flex;
+  flex-direction: column;
+  min-height: 480px;
+  padding-bottom: 30px;
+}
+
+.courses__pic {
+  margin-bottom: 29px;
+}
+
+.courses__img {
+  width: 100%;
+}
+
+.courses__time {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+.courses__time-icon {
+  margin-right: 3px;
+  transform: translateY(4px);
+}
+
+.courses__time-dscr {
+  line-height: 150%;
+  color: var(--white);
+}
+
+.courses__text {
+  margin-bottom: auto;
+  padding-right: 26px;
+  padding-left: 30px;
+}
+
+.courses__text-title {
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #2E2B44;
+}
+
+.courses__text-dscr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #666;
+}
+
+.courses__btn-wrapper {
+  padding-left: 30px;
+}
+
+.courses__btn {
+  padding-top: 20.5px;
+  padding-right: 59px;
+  padding-bottom: 20.5px;
+  padding-left: 59px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/*Footer*/
+
+.footer {
+  width: 100%;
+  padding-top: 6px;
+  background-color: #2E2B44;
+}
+
+.footer__top {
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 22px;
+  padding-left: 45px;
+}
+
+.footer__top-item {
+  margin-right: 30px;
+}
+
+.footer__bottom {
+  justify-content: center;
+  background-color: var(--white);
+}
+
+.footer__bottom-link {
+  color: var(--blue);
+}
+

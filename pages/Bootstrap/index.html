@@ -1,0 +1,375 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>SkillBox</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="row header__content">
+        <picture class="header__pic d-block col-4 col-md-2 offset-sm-5 offset-md-0">
+          <img class="header__logo " src="img/tablet-510-png/logo.png" alt="logotype">
+        </picture>
+        <nav class="header__nav row d-none d-sm-block col-sm-12 col-md-9 col-lg-6">
+          <ul class="list-reset d-flex justify-content-between">
+            <li class="col-3"><a href="#hero" class="header__link link-style">Главная</a></li>
+            <li class="col-3"><a href="#abotUs" class="header__link link-style">О нас</a></li>
+            <li class="col-4"><a href="#teachers" class="header__link link-style">Преподователи</a></li>
+            <li class="col-3"><a href="#courses" class="header__link link-style">Курсы</a></li>
+          </ul>
+        </nav>
+        <button class="header__burger d-block d-sm-none btn-reset" type="button" aria-label="показать меню" value="open burger-menu">
+          <span class="header__burger-line"></span >
+          <span class="header__burger-line"></span >
+          <span class="header__burger-line"></span >
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="hero__left col-md-6 col-lg-5">
+            <h1 class="hero__title title-reset">Курсы&nbsp;3D моделирования</h1>
+            <p class="hero__dscr p-reset">Следует отметить, что существующая теория способствует повышению качества благоприятных перспектив. Не&nbsp;следует, однако, забывать.</p>
+            <button class="hero__btn btn-reset btn">Выбрать курс</button>
+          </div>
+          <div class="hero__right d-none d-md-block d-lg-block col-md-6 col-lg-7">
+            <picture>
+              <source srcset="img/tablet-690-png/hero-img.png"  class="hero__right-img img-fluid" media="(max-width: 768px)">
+              <img src="img/desktop-1110-png/hero-img.png" class="hero__right-img img-fluid" alt="stranch">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skillbox-advantage" id="aboutUs">
+      <div class="container">
+       <div class="skillbox-advantage__block row justify-content-between justify-content-lg-start">
+          <div class="skillbox-advantage__img row col-sm-4 d-none d-sm-block col-lg-2">
+            <picture>
+              <source srcset="img/tablet-510-png/tokpokkie.png" media="(max-width: 576px)">
+              <source srcset="img/tablet-690-png/tokpokkie.png" media="(max-width: 768px)">
+              <img src="img/desktop-1110-png/tokpokkie.png" alt="tokpokkie">
+            </picture>
+          </div>
+          <div class="skillbox-advantage__right col-sm-8 col-lg-7">
+            <h2 class="skillbox-advantage__title section-title title-reset">Преимущества обучения в&nbsp;skillbox</h2>
+            <p class="skillbox-advantage__dscr p-reset">Имеется спорная точка зрения, гласящая примерно следующее: акционеры крупнейших компаний, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут рассмотрены исключительно в&nbsp;разрезе маркетинговых предпосылок.</p>
+        </div>
+        </div>
+
+        <ul class="skillbox-advantage__list list-reset row ">
+          <li class="list-reset col-sm-4 ">
+             <div class="skillbox-advantage__wrapper">
+              <svg class="skillbox-advantage__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_40_32)">
+                <path d="M40 0C34.7471 0 29.5457 1.03463 24.6927 3.04482C19.8396 5.05501 15.4301 8.00138 11.7157 11.7157C4.21427 19.2172 0 29.3913 0 40C0 50.6087 4.21427 60.7828 11.7157 68.2843C15.4301 71.9986 19.8396 74.945 24.6927 76.9552C29.5457 78.9654 34.7471 80 40 80C50.6087 80 60.7828 75.7857 68.2843 68.2843C75.7857 60.7828 80 50.6087 80 40C80 34.7471 78.9654 29.5457 76.9552 24.6927C74.945 19.8396 71.9986 15.4301 68.2843 11.7157C64.5699 8.00138 60.1604 5.05501 55.3073 3.04482C50.4543 1.03463 45.2529 0 40 0ZM40 56C29.48 56 20 49.72 16 40C21.52 26.76 36.76 20.48 50 26C56.32 28.64 61.36 33.68 64 40C60 49.72 50.52 56 40 56Z" fill="#3F2AFF"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M40.3571 30.3125C37.6931 30.3125 35.1382 31.3708 33.2545 33.2545C31.3708 35.1382 30.3125 37.6931 30.3125 40.3571C30.3125 43.0211 31.3708 45.576 33.2545 47.4598C35.1382 49.3435 37.6931 50.4018 40.3571 50.4018C43.0212 50.4018 45.576 49.3435 47.4598 47.4598C49.3435 45.576 50.4018 43.0211 50.4018 40.3571C50.4018 37.6931 49.3435 35.1382 47.4598 33.2545C45.576 31.3708 43.0212 30.3125 40.3571 30.3125ZM40.3565 44.8772C42.8529 44.8772 44.8766 42.8535 44.8766 40.3571C44.8766 37.8608 42.8529 35.837 40.3565 35.837C37.8601 35.837 35.8364 37.8608 35.8364 40.3571C35.8364 42.8535 37.8601 44.8772 40.3565 44.8772Z" fill="#2E2B44"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_40_32">
+                <rect width="80" height="80" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+              <b class="skillbox-advantage__text d-sm-block">Результат вашего обучения является самым важным для нас приоритетом</b>
+            </div>
+          </li>
+
+          <li class="list-reset col-sm-4">
+              <div class="skillbox-advantage__wrapper">
+                <svg class="skillbox-advantage__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_40_19)">
+                  <g clip-path="url(#clip1_40_19)">
+                  <path d="M37.9097 43.3674C37.9097 43.6773 38.1609 43.9286 38.4709 43.9286H39.1893C39.0672 43.5678 39.0232 43.1852 39.0602 42.8062H38.4709C38.1609 42.8062 37.9097 43.0574 37.9097 43.3674Z" fill="#2E2B44"/>
+                  <path d="M42.3529 24.3258C41.9161 24.2327 41.4601 24.317 41.0854 24.5601C40.7106 24.8033 40.4479 25.1853 40.355 25.6223L38.7387 35.9264C38.666 36.3185 38.3298 36.607 37.9312 36.6191C37.5326 36.6313 37.1794 36.3639 37.083 35.9769L35.1019 26.8626C35.0136 26.2532 34.5996 25.7407 34.0225 25.5261C33.4453 25.3115 32.7971 25.4291 32.3321 25.8327C31.8671 26.2362 31.6594 26.8615 31.7907 27.4631L33.6708 37.7559C33.8158 38.5397 33.8063 39.3442 33.6427 40.1243C34.2167 39.5579 34.8299 39.0328 35.4779 38.5529C36.1521 38.0386 36.9759 37.7588 37.8239 37.7559H41.5728L43.6494 26.3294C43.7442 25.8917 43.6607 25.4343 43.4174 25.0583C43.1741 24.6823 42.7911 24.4187 42.3529 24.3258Z" fill="#2E2B44"/>
+                  <path d="M43.1224 45.1183C42.8294 45.3305 42.4976 45.4831 42.1458 45.5673C42.222 45.6896 42.2895 45.8172 42.3479 45.9489C42.4233 46.1218 42.4069 46.3211 42.3041 46.4793C42.2012 46.6375 42.0258 46.7334 41.8372 46.7347C41.6153 46.7332 41.4152 46.6012 41.3264 46.3979C40.9683 45.5772 40.1566 45.0479 39.2611 45.051H38.4698C37.5399 45.051 36.7861 44.2972 36.7861 43.3673C36.7861 42.4374 37.5399 41.6836 38.4698 41.6836H40.1535C41.3933 41.6836 42.3984 40.6786 42.3984 39.4387V38.8775H37.8244C37.2172 38.8775 36.6265 39.0744 36.1407 39.4387C33.9407 41.0775 31.7351 43.5188 31.7351 46.3025C31.7335 47.5568 32.1261 48.7799 32.8576 49.7989L35.6637 53.6714C36.09 54.2629 36.2892 54.988 36.2249 55.7142H45.7657C45.7657 54.1877 45.6142 54.5918 48.0836 50.3882C48.733 49.0753 49.091 47.6376 49.1331 46.1734V43.5806L47.8254 45.6627C47.3098 46.5515 46.3162 47.0499 45.2955 46.9318C44.2748 46.8136 43.4213 46.1014 43.1224 45.1183Z" fill="#2E2B44"/>
+                  <path d="M40.1801 42.8061C40.0772 43.2768 40.221 43.7674 40.5617 44.1081C40.9024 44.4488 41.3931 44.5926 41.8638 44.4897C42.6776 44.3101 42.9862 43.676 43.4072 42.9576C45.6969 39.2984 45.6128 39.4443 45.6521 39.3321C46.1674 38.6082 45.9992 37.6036 45.276 37.0872C44.9119 36.8836 44.4814 36.8343 44.0807 36.9503C43.68 37.0663 43.3424 37.3379 43.1434 37.7045L42.9918 37.9459C43.314 38.1471 43.5125 38.4977 43.5194 38.8775V39.4387C43.5195 41.2875 42.0289 42.7907 40.1801 42.8061Z" fill="#2E2B44"/>
+                  <path d="M49.0224 38.8774C48.2935 38.4623 47.3663 38.7129 46.9458 39.4387C46.6203 39.9662 47.1703 39.0346 44.3698 43.5581C44.1489 43.9065 44.0762 44.3287 44.1678 44.731C44.315 45.3223 44.813 45.7607 45.4182 45.8318C46.0234 45.9029 46.6094 45.5919 46.8897 45.0509L49.4713 40.9484C49.9192 40.2525 49.7182 39.3254 49.0224 38.8774Z" fill="#2E2B44"/>
+                  </g>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M24.6927 3.04482C29.5457 1.03463 34.7471 0 40 0C45.2529 0 50.4543 1.03463 55.3073 3.04482C60.1604 5.05501 64.5699 8.00138 68.2843 11.7157C71.9986 15.4301 74.945 19.8396 76.9552 24.6927C78.9654 29.5457 80 34.7471 80 40C80 50.6087 75.7857 60.7828 68.2843 68.2843C60.7828 75.7857 50.6087 80 40 80C34.7471 80 29.5457 78.9654 24.6927 76.9552C19.8396 74.945 15.4301 71.9986 11.7157 68.2843C4.21427 60.7828 0 50.6087 0 40C0 29.3913 4.21427 19.2172 11.7157 11.7157C15.4301 8.00138 19.8396 5.05501 24.6927 3.04482ZM40.3571 62.1429C52.3891 62.1429 62.1429 52.3891 62.1429 40.3571C62.1429 28.3252 52.3891 18.5714 40.3571 18.5714C28.3252 18.5714 18.5714 28.3252 18.5714 40.3571C18.5714 52.3891 28.3252 62.1429 40.3571 62.1429Z" fill="#3F2AFF"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_40_19">
+                  <rect width="80" height="80" fill="white"/>
+                  </clipPath>
+                  <clipPath id="clip1_40_19">
+                  <rect width="31.4286" height="31.4286" fill="white" transform="translate(25 24.2857)"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+                <b class="skillbox-advantage__text d-block">Лично познакомитесь с&nbsp;одним из&nbsp;своих будущих преподавателей</b>
+              </div>
+          </li>
+
+          <li class="list-reset col-sm-4">
+             <div class="skillbox-advantage__wrapper">
+              <svg class="skillbox-advantage__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_40_6)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M24.6927 3.04482C29.5457 1.03463 34.7471 0 40 0C45.2529 0 50.4543 1.03463 55.3073 3.04482C60.1604 5.05501 64.5699 8.00138 68.2843 11.7157C71.9986 15.4301 74.945 19.8396 76.9552 24.6927C78.9654 29.5457 80 34.7471 80 40C80 50.6087 75.7857 60.7828 68.2843 68.2843C60.7828 75.7857 50.6087 80 40 80C34.7471 80 29.5457 78.9654 24.6927 76.9552C19.8396 74.945 15.4301 71.9986 11.7157 68.2843C4.21427 60.7828 0 50.6087 0 40C0 29.3913 4.21427 19.2172 11.7157 11.7157C15.4301 8.00138 19.8396 5.05501 24.6927 3.04482ZM40.3571 62.1429C52.3891 62.1429 62.1429 52.3891 62.1429 40.3571C62.1429 28.3252 52.3891 18.5714 40.3571 18.5714C28.3252 18.5714 18.5714 28.3252 18.5714 40.3571C18.5714 52.3891 28.3252 62.1429 40.3571 62.1429Z" fill="#3F2AFF"/>
+                <g clip-path="url(#clip1_40_6)">
+                <path d="M39.9993 43.1122V33.8508C39.7367 33.8751 39.4772 33.916 39.2131 33.9282H31.6516C31.2327 33.9282 30.8927 34.2682 30.8927 34.6871V35.4459H28.6161C28.1972 35.4459 27.8572 35.7859 27.8572 36.2048V40.7581C27.8572 41.177 28.1972 41.517 28.6161 41.517H30.8927V42.2759C30.8927 42.6948 31.2327 43.0348 31.6516 43.0348H32.1115L35.1622 51.1669C35.3489 51.6541 35.7662 52.0078 36.2792 52.111C36.3809 52.1322 36.4826 52.1428 36.5828 52.1428C36.988 52.1428 37.3736 51.982 37.6498 51.6936L39.4726 49.8859C39.9386 49.42 40.0494 48.693 39.7519 48.1299L37.2051 43.0348H39.2207C39.4817 43.0469 39.7397 43.0879 39.9993 43.1122Z" fill="#2E2B44"/>
+                <path d="M52.0179 28.2244C52.0028 28.1986 51.9891 28.1774 51.9694 28.1531C51.8859 28.0468 51.7812 27.9603 51.6522 27.9102C51.6476 27.9087 51.6446 27.9026 51.64 27.9011C51.6248 27.8966 51.6112 27.9042 51.596 27.8996C51.5277 27.8799 51.4594 27.8571 51.3835 27.8571C51.3319 27.8571 51.2864 27.8768 51.2363 27.8875C51.2075 27.8935 51.1801 27.8951 51.1513 27.9042C51.0208 27.9467 50.9085 28.0195 50.8189 28.1197C50.8128 28.1258 50.8037 28.1273 50.7977 28.1333C48.4315 31.0065 45.1319 32.928 41.5181 33.6322V43.3322C45.1319 44.0365 48.4315 45.9564 50.7977 48.8296C50.8037 48.8371 50.8144 48.8402 50.8219 48.8493C50.8751 48.9085 50.9403 48.9555 51.0102 48.995C51.0329 49.0087 51.0511 49.0284 51.0739 49.039C51.1695 49.08 51.2727 49.1058 51.3835 49.1058C51.47 49.1058 51.555 49.0906 51.64 49.0618C51.6446 49.0603 51.6476 49.0542 51.6522 49.0527C51.7812 49.0026 51.8859 48.9176 51.9694 48.8098C51.9876 48.7855 52.0013 48.7643 52.0179 48.7385C52.0908 48.6216 52.1424 48.4926 52.1424 48.3469V28.616C52.1424 28.4703 52.0908 28.3413 52.0179 28.2244Z" fill="#2E2B44"/>
+                </g>
+                </g>
+                <defs>
+                <clipPath id="clip0_40_6">
+                <rect width="80" height="80" fill="white"/>
+                </clipPath>
+                <clipPath id="clip1_40_6">
+                <rect width="24.2857" height="24.2857" fill="white" transform="translate(27.8572 27.8571)"/>
+                </clipPath>
+                </defs>
+              </svg>
+              <b class="skillbox-advantage__text d-block">Значимость этих проблем очевидна, поэтому стоит всегда быть внимательным</b>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="teachers" id="teachers">
+      <div class="container">
+        <h2 class="teachers__title section-title title-reset">Преподаватели курсов</h2>
+        <ul class="row list-reset flex justify-content-between">
+          <li class="teachers__item list-reset col-12 col-sm-12 col-md-6">
+            <article class="teachers__blog">
+                <picture class="teachers__pic d-block">
+                  <source srcset="img/mobile-png/volodimir.png" media="(max-width: 320px)">
+                  <source srcset="img/tablet-510-png/volodimir.png" media="(max-width: 576px)">
+                  <source srcset="img/tablet-690-png/volodimir.png" media="(max-width: 768px)">
+                  <img src="img/desktop-1110-png/volodimir.png" class="teachers__img" alt="teacher">
+                </picture>
+                <div class="teachers__info">
+                  <h3 class="teachers__info-initials title-reset">Владимир Петров</h3>
+                  <p class="teachers__info-dscr p-reset">Лишь непосредственные участники технического прогресса неоднозначны и&nbsp;будут в&nbsp;равной степени предоставлены сами себе.</p>
+                </div>
+            </article>
+          </li>
+          <li class="teachers__item list-reset col-12 col-sm-12 col-md-6">
+            <article class="teachers__blog">
+                <picture class="teachers__pic d-block">
+                  <source srcset="img/mobile-png/denis.png" media="(max-width: 320px)">
+                  <source srcset="img/tablet-510-png/denis.png" media="(max-width: 576px)">
+                  <source srcset="img/tablet-690-png/denis.png" media="(max-width: 768px)">
+                  <img src="img/desktop-1110-png/denis.png" class="teachers__img" alt="teacher">
+                </picture>
+                <div class="teachers__info">
+                  <h2 class="teachers__info-initials title-reset">Денис Сергеев</h2>
+                  <p class="teachers__info-dscr p-reset">Безусловно, разбавленное изрядной долей эмпатии, рациональное мышление.</p>
+                </div>
+            </article>
+          </li>
+          <li class="teachers__item list-reset col-12 col-sm-12 col-md-6">
+            <article class="teachers__blog">
+                <picture class="teachers__pic d-block">
+                  <source srcset="img/mobile-png/mihael.png" media="(max-width: 320px)">
+                  <source srcset="img/tablet-510-png/mihael.png" media="(max-width: 576px)">
+                  <source srcset="img/tablet-690-png/mihael.png" media="(max-width: 768px)">
+                  <img src="img/desktop-1110-png/mihael.png" class="teachers__img" alt="teacher">
+                </picture>
+                <div class="teachers__info">
+                  <h3 class="teachers__info-initials title-reset">Михаил Андреев</h3>
+                  <p class="teachers__info-dscr p-reset">Ясность нашей позиции очевидна: высокое качество позиционных исследований напрямую зависит от&nbsp;вывода.</p>
+                </div>
+            </article>
+          </li>
+          <li class="teachers__item list-reset col-12 col-sm-12 col-md-6">
+            <article class="teachers__blog">
+                <picture class="teachers__pic d-block">
+                  <source srcset="img/mobile-png/konstantin.png" media="(max-width: 320px)">
+                  <source srcset="img/tablet-510-png/konstantin.png" media="(max-width: 576px)">
+                  <source srcset="img/tablet-690-png/konstantin.png" media="(max-width: 768px)">
+                  <img src="img/desktop-1110-png/konstantin.png" class="teachers__img" alt="teacher">
+                </picture>
+                <div class="teachers__info">
+                  <h3 class="teachers__info-initials title-reset">Константин Дмитриев</h3>
+                  <p class="teachers__info-dscr p-reset">Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что существующая теория, в&nbsp;своём классическом представлении.</p>
+                </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="courses" id="courses">
+      <div class="container">
+        <h2 class="courses__title section-title title-reset">Курсы</h2>
+        <ul class="list-reset row justify-content-between">
+          <li class="courses__item col-sm-6 col-lg-6 list-reset">
+            <article class="courses__info">
+              <picture class="courses__pic d-block">
+                <source class="courses__img" srcset="img/mobile-png/cinema-4d.png" media="(max-width: 320px)">
+                <source class="courses__img" srcset="img/tablet-510-png/cinema-4d.png" media="(max-width: 576px)">
+                <source class="courses__img" srcset="img/tablet-690-png/cinema-4d.png" media="(max-width: 768px)">
+                <img class="courses__img" src="img/desktop-1110-png/cinema-4d.png" alt="cinema-4d">
+              </picture>
+              <div class="courses__time">
+                <svg class="courses__time-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-clock" viewBox="0 0 16 16">
+                  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                </svg>
+                <span class="courses__time-dscr">60 часов</span>
+              </div>
+              <div class="courses__text">
+                <h3 class="courses__text-title title-reset">Cinema 4d&nbsp;для начинающих</h3>
+                <p class="courses__text-dscr p-reset">Учитывая ключевые сценарии поведения, базовый вектор развития напрямую зависит от&nbsp;системы массового участия. Следует отметить, что сложившаяся структура организации напрямую зависит от&nbsp;стандартных подходов.</p>
+              </div>
+              <div class="courses__btn-wrapper">
+                <button class="courses__btn btn-reset btn" type="button" aria-label="узнать подробности">Подробнее</button>
+              </div>
+            </article>
+          </li>
+
+          <li class="courses__item col-sm-6 col-lg-6 list-reset">
+            <article class="courses__info">
+              <picture class="courses__pic d-block">
+                <source class="courses__img" srcset="img/mobile-png/blender.png" media="(max-width: 320px)">
+                <source class="courses__img" srcset="img/tablet-510-png/blender.png" media="(max-width: 576px)">
+                <source class="courses__img" srcset="img/tablet-690-png/blender.png" media="(max-width: 768px)">
+                <img class="courses__img" src="img/desktop-1110-png/blender.png" alt="blender">
+              </picture>
+              <div class="courses__time">
+                <svg class="courses__time-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-clock" viewBox="0 0 16 16">
+                  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                </svg>
+                <span class="courses__time-dscr">40 часов</span>
+              </div>
+              <div class="courses__text">
+                <h3 class="courses__text-title title-reset">Blender: продвинутый уровень</h3>
+                <p class="courses__text-dscr p-reset">Но&nbsp;убеждённость некоторых оппонентов в&nbsp;значительной степени обусловливает важность форм воздействия. Внезапно, тщательные исследования конкурентов представлены.</p>
+              </div>
+              <div class="courses__btn-wrapper">
+                <button class="courses__btn btn-reset btn" type="button" aria-label="узнать подробности">Подробнее</button>
+              </div>
+            </article>
+          </li>
+
+          <li class="courses__item col-sm-6 col-lg-6 list-reset">
+              <article class="courses__info">
+                <picture class="courses__pic d-block">
+                  <source class="courses__img" srcset="img/mobile-png/3d-max.png" media="(max-width: 320px)">
+                  <source class="courses__img" srcset="img/tablet-510-png/3d-max.png" media="(max-width: 576px)">
+                  <source class="courses__img" srcset="img/tablet-690-png/3d-max.png" media="(max-width: 768px)">
+                  <img class="courses__img" src="img/desktop-1110-png/3d-max.png" alt="3ds-max">
+                </picture>
+                <div class="courses__time">
+                  <svg class="courses__time-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-clock" viewBox="0 0 16 16">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                  </svg>
+                    <span class="courses__time-dscr">40 часов</span>
+                </div>
+                <div class="courses__text">
+                  <h3 class="courses__text-title title-reset">Визуализация в&nbsp;3ds Max</h3>
+                  <p class="courses__text-dscr p-reset">Повседневная практика показывает, что сложившаяся структура организации обеспечивает актуальность кластеризации усилий.</p>
+                </div>
+                <div class="courses__btn-wrapper">
+                  <button class="courses__btn btn-reset btn" type="button" aria-label="узнать подробности">Подробнее</button>
+                </div>
+              </article>
+          </li>
+
+          <li class="courses__item col-sm-6 col-lg-6 list-reset">
+              <article class="courses__info">
+                <picture class="courses__pic d-block">
+                  <source class="courses__img" srcset="img/mobile-png/zbrush.png" media="(max-width: 320px)">
+                  <source class="courses__img" srcset="img/tablet-510-png/zbrush.png" media="(max-width: 576px)"> 
+                  <source class="courses__img" srcset="img/tablet-690-png/zbrush.png" media="(max-width: 768px)">
+                  <img class="courses__img" src="img/desktop-1110-png/zbrush.png" alt="ZBrush">
+                </picture>
+                <div class="courses__time">
+                  <svg class="courses__time-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-clock" viewBox="0 0 16 16">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                  </svg>
+                  <span class="courses__time-dscr">80 часов</span>
+                </div>
+                <div class="courses__text">
+                  <h3 class="courses__text-title title-reset">Скульптинг в&nbsp;ZBrush</h3>
+                  <p class="courses__text-dscr p-reset">Разнообразный и&nbsp;богатый опыт говорит нам, что граница обучения кадров требует определения и&nbsp;уточнения прогресса профессионального сообщества! В&nbsp;частности, постоянный количественный рост и&nbsp;сфера нашей активности.</p>
+                </div>
+                <div class="courses__btn-wrapper">
+                  <button class="courses__btn btn-reset btn" type="button" aria-label="узнать подробности">Подробнее</button>
+                </div>
+              </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <ul class="footer__top list-reset row">
+        <li class="footer__top-item col-xs-1">
+          <a href="https://www.facebook.com/" class="footer__social-link link-style" target="_blank">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_42_77)">
+              <path d="M15.402 21V14.034H17.735L18.084 11.326H15.402V9.598C15.402 8.814 15.62 8.279 16.744 8.279H18.178V5.857C17.4838 5.78334 16.7861 5.74762 16.088 5.75C14.021 5.75 12.606 7.012 12.606 9.33V11.326H10.268V14.034H12.606V21H4C3.73478 21 3.48043 20.8946 3.29289 20.7071C3.10536 20.5196 3 20.2652 3 20V4C3 3.73478 3.10536 3.48043 3.29289 3.29289C3.48043 3.10536 3.73478 3 4 3H20C20.2652 3 20.5196 3.10536 20.7071 3.29289C20.8946 3.48043 21 3.73478 21 4V20C21 20.2652 20.8946 20.5196 20.7071 20.7071C20.5196 20.8946 20.2652 21 20 21H15.402Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_42_77">
+              <rect width="24" height="24" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__top-item col-xs-1">
+          <a href="https://twitter.com/" class="footer__social-link link-style" target="_blank">
+            <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.1621 2.65593C20.3986 2.99362 19.589 3.2154 18.7601 3.31393C19.6338 2.79136 20.2878 1.96894 20.6001 0.999927C19.7801 1.48793 18.8811 1.82993 17.9441 2.01493C17.3147 1.34151 16.4804 0.89489 15.571 0.744511C14.6616 0.594133 13.728 0.748418 12.9153 1.18338C12.1026 1.61834 11.4564 2.30961 11.0772 3.14972C10.6979 3.98983 10.6068 4.93171 10.8181 5.82893C9.15516 5.74558 7.52838 5.31345 6.04334 4.56059C4.55829 3.80773 3.24818 2.75097 2.19805 1.45893C1.82634 2.09738 1.63101 2.82315 1.63205 3.56193C1.63205 5.01193 2.37005 6.29293 3.49205 7.04293C2.82806 7.02202 2.17869 6.84271 1.59805 6.51993V6.57193C1.59825 7.53763 1.93242 8.47354 2.5439 9.22099C3.15538 9.96843 4.00653 10.4814 4.95305 10.6729C4.33667 10.84 3.69036 10.8646 3.06305 10.7449C3.32992 11.5762 3.85006 12.3031 4.55064 12.824C5.25123 13.3449 6.09718 13.6337 6.97005 13.6499C6.10253 14.3313 5.10923 14.8349 4.04693 15.1321C2.98464 15.4293 1.87418 15.5142 0.779053 15.3819C2.69075 16.6114 4.91615 17.264 7.18905 17.2619C14.8821 17.2619 19.0891 10.8889 19.0891 5.36193C19.0891 5.18193 19.0841 4.99993 19.0761 4.82193C19.8949 4.23009 20.6017 3.49695 21.1631 2.65693L21.1621 2.65593Z" fill="white"/>
+              </svg>
+          </a>
+        </li>
+        <li class="footer__top-item col-xs-1">
+          <a href="https://www.instagram.com/" class="footer__social-link link-style" target="_blank">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_42_83)">
+              <path d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_42_83">
+              <rect width="24" height="24" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+          </a>
+        </li>
+        <li class="footer__top-item col-xs-1">
+          <a href="https://www.youtube.com/" class="footer__social-link link-style">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_42_86)">
+              <path d="M21.543 6.498C22 8.28 22 12 22 12C22 12 22 15.72 21.543 17.502C21.289 18.487 20.546 19.262 19.605 19.524C17.896 20 12 20 12 20C12 20 6.107 20 4.395 19.524C3.45 19.258 2.708 18.484 2.457 17.502C2 15.72 2 12 2 12C2 12 2 8.28 2.457 6.498C2.711 5.513 3.454 4.738 4.395 4.476C6.107 4 12 4 12 4C12 4 17.896 4 19.605 4.476C20.55 4.742 21.292 5.516 21.543 6.498ZM10 15.5L16 12L10 8.5V15.5Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_42_86">
+              <rect width="24" height="24" fill="white"/>
+              </clipPath>
+              </defs>
+              </svg>
+          </a>
+        </li>
+      </ul>
+      <div class="footer__bottom row">
+        <p class="footer__bottom-dscr p-reset">SkillBox <a href="https://skillbox.ru/" class="footer__bottom-link link-style">&reg;</a> 2021</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
