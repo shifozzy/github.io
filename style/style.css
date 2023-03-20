@@ -82,6 +82,7 @@ li {
 }
 
 .main__item {
+  display: flex;
   width: calc((100% - (var(--elements) - 1) * var(--gap)) / (var(--elements)));
   min-height: 260px;
   text-align: center;
