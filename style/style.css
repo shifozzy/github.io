@@ -110,10 +110,10 @@ li {
   width: 100%;
   height: 70%;
   margin-bottom: auto;
+  min-height: 210px;
 }
 
 .main__dscr {
-  padding-top: 20px;
   color: #FFF;
 }
 
@@ -121,9 +121,39 @@ li {
   .main__list  {
     --elements: 2;
   }
+
+  .main__item {
+    max-height: 200px;
+  }
+
+  .main__img {
+    border-radius: 20px;
+  }
 }
 
 @media (max-width: 576px) {
+
+  .header__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header__title {
+    font-size: 22px;
+  }
+
+  .main__content {
+    padding-top: 0;
+  }
+
+  .main__title {
+    font-size: 24px;
+  }
+
+  .header__link {
+    font-size: 20px;
+  }
+
   .main__item {
     --elements: 1;
   }
