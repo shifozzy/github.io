@@ -15,12 +15,12 @@
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   color: #FFF;
   font-family: 'Gilroy', sans-serif;
 }
@@ -30,10 +30,6 @@ li {
   list-style: none;
 }
 
-.reset {
-  margin: 0;
-  padding: 0;
-}
 
 .link__reset {
   text-decoration: none;
@@ -135,10 +131,6 @@ li {
     --elements: 2;
   }
 
-  .main__item {
-    max-height: 200px;
-  }
-
   .main__img {
     border-radius: 20px;
   }
@@ -170,4 +162,5 @@ li {
   .main__item {
     --elements: 1;
   }
+
 }
