@@ -402,6 +402,7 @@
   .courses__info {
     display: flex;
     flex-direction: column;
+    min-height: 730px
   }
 
   .courses__time {
@@ -434,11 +435,12 @@
 
   .courses__btn {
     position: absolute;
+    font-size: 12px;
     bottom: 30px;
-    padding-top: 20.5px;
-    padding-right: 48px;
-    padding-bottom: 20.5px;
-    padding-left: 48px;
+    padding-top: 15px;
+    padding-right: 28px;
+    padding-bottom: 15px;
+    padding-left: 28px;
   }
 
   .footer__top .container {
@@ -687,10 +689,10 @@
   .courses__btn {
     max-width: 195px;
     margin-left: 30px;
-    padding-top: 20.5px;
-    padding-right: 55.5px;
-    padding-bottom: 20.5px;
-    padding-left: 55.5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
   }
 
   .footer {
