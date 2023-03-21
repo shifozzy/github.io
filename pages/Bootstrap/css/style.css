@@ -301,6 +301,7 @@ body {
 }
 
 .courses__item {
+  display: flex;
   max-width: 48.7%;
   margin-bottom: 30px;
   border-radius: 20px;
